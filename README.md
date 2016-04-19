@@ -29,8 +29,8 @@ Populate `config.js` with your information, or better yet, set ENV vars
 [Node.js](http://nodejs.org/) is unfortunately required.
 
 ```shell
-$ git clone git@github.com:outsideris/slack-invite-automation.git
-$ cd slack-invite-automation
+$ git clone git@github.com:bayareadads/slack-join-page.git
+$ cd slack-join-page
 $ npm install
 $ bin/www
 ```
