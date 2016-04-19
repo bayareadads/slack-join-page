@@ -1,14 +1,12 @@
 Slack Invite Page
 ------------
 
-A tiny web app to add open inviting to your Slack team.
-
-Inspired by [this](https://levels.io/slack-typeform-auto-invite-sign-ups/) and [this](http://socket.io/slack/).
+A tiny web app to add open inviting to your Slack team, inspired by [this](https://levels.io/slack-typeform-auto-invite-sign-ups/) and [this](http://socket.io/slack/).
 
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
 ## Setting
-fill in `config.js` with your information.
+Populate `config.js` with your information, or better yet, set ENV vars
 
 * `community`: your community or team name to display on join page.
 * `slackUrl` : your slack team url (ex: socketio.slack.com)
@@ -28,7 +26,7 @@ fill in `config.js` with your information.
   ```
 
 ## Run
-[Node.js](http://nodejs.org/) is required.
+[Node.js](http://nodejs.org/) is unfortunately required.
 
 ```shell
 $ git clone git@github.com:outsideris/slack-invite-automation.git
