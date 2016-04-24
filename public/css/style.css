@@ -156,8 +156,9 @@ a:hover {
 }
 
 .footer {
-  width: 50%;
-  margin: 0 auto;
+  display: block;
+  margin:  0 auto;
+  width:   50%;
 }
 
 .footer li {
